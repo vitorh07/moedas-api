@@ -26,4 +26,9 @@ public class MoedaService {
     public void salvarTodas(List<Moeda> moedas) {
         moedaRepository.saveAll(moedas);
     }
+
+    public Optional<String> buscarFlagPorCodigo(String code) {
+        return moedaRepository.findById(code)
+                .map(Moeda::getFlag);
+    }
 }
