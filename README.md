@@ -29,7 +29,7 @@ A Moeda API é uma aplicação Spring Boot que fornece uma lista de países e su
 
 2. **Clone o repositório:**
    ```sh
-   git clone https://github.com/seu-usuario/moedas-api.git
+   git clone https://github.com/vitorh07/moedas-api.git
    cd moedas-api
 
 3. **Instale as dependências e execute o projeto:**
